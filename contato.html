@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pafúncio Soft Sistemas - Fale conosco</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+
+<body>
+    <!--Adicionando o cabeçalho do site-->
+    <header>
+        <img id="logo" src="img/logo-small.png" alt="Logotipo">
+    </header>
+
+    <!--Adicionando o rodapé do site-->
+
+    <div id="img-topo"></div>
+
+    <!--Adicionando menu de navegação-->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Nossa Empresa</a>
+        <a href="solucoes.html">Soluções</a>
+        <a href="casos.html">Casos de Sucesso</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <!--Adicionando o miolo do site-->
+
+    <div id="container">
+        <h1>Fale conosco</h1>
+        <form action="#" id="formulario">
+            <div id="frm-container">
+                
+                <div id="frm-labels">
+                   <p><label for="frm-tipo-contato">Tipo de contato:</label></p>
+                   <p><label for="frm-nome">Nome:</label></p>
+                   <p><label for="frm-email">E-mail:</label></p>
+                   <p><label for="frm-telefone">Telefone:</label></p>
+                   <p><label for="frm-mensagem">Mensagem:</label></p>
+                </div>
+                
+                <div id="frm-fields">
+                   <p>
+                      <select name="frm-tipo-contato"> 
+                          <opction value="orcamento">Orçamento</opction>
+                          <option valeu="pedido">Pedido de compra</option>
+                          <option valeu="feedback">Críticas e sugestões</option>
+                          <option valeu="outros">Outros</option>
+                      </select>
+                   </p>
+                   <p>
+                       <input name="frm-nome" type="text" placeholder="Digite seu Nome" required>
+                   </p>
+                   <p>
+                       <input name="frm-email" type="email" placeholder="Seu@gmail.com.br" required>
+                   </p>
+                   <p>
+                       <input name="frm-telefone" type="tel" placeholder="(99) 9999-9999" required>
+                   </p>
+                   <p>
+                       <textarea name="frm-mensagem" id="frm-mensagem" rows="10" placeholder="Digite sua mensagem aqui"></textarea>
+                   </p>
+                </div>
+           
+            </div>
+        </form>
+        
+    </div>
+
+
+
+    <footer>
+        Pafúncio Soft &copy; - Todos os direitos reservados
+    </footer>
+</body>
+
+</html>
